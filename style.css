@@ -1,0 +1,55 @@
+html, body {margin: 0; padding: 0;}
+
+body
+{
+    font-family: "Courier New", Courier, monospace;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+div#wrapper
+{
+    padding: 23px;
+}
+
+div.block
+{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid #666666;
+}
+div.blocktable
+{
+    width: 30%;
+    float: left;
+}
+div#buttons
+{
+    clear: both;
+}
+
+div.active
+{
+    background-color: #FF0000;
+    border: 2px solid #FF3333;
+}
+div.inactive
+{
+    background-color: #666666;
+    border: 2px solid #999999;
+}
+div.active:hover, div.inactive:hover
+{
+    background-color: #FFFF00;
+}
+
+div.bitmatrix
+{
+    background-color: beige;
+    border: 1px solid red;
+    display: block;
+}
